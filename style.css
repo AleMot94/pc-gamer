@@ -1,0 +1,505 @@
+/* MOBILE FIRST */
+.backgroundColor {
+    background-color: rgb(247, 176, 44);
+}
+
+.body {
+    height: 100vh;
+    font-family: 'Righteous';
+}
+
+/* Barra de busqueda */
+
+.contenedorFlex1 {
+    display: flex;
+}
+
+/* Barra de busqueda */
+
+/* footer */
+
+.footer {
+    top: 88%;
+    width: 100%;
+}
+
+.ulRedes {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer */
+
+/* catalogo de productos */
+
+.contenedorFlexproductos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorProductos {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(16, 380px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.contendorProcesadores {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 380px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.contenedorPlacas {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 380px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.contenedorMothers {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 380px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.contenedorAlmacenamiento {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, 400px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.contenedorRams {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 380px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.contendorGabinetes {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 380px);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+/* catalogo de productos */
+
+
+/* inicio sesion */
+
+.mainSesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorInciosesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    height: 310px;
+    background-color: rgb(247, 176, 44);
+}
+
+.inputsSesion {
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+.contenedorBotones {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonSesion {
+
+}
+
+/* inicio sesion */
+
+/* contacto */
+
+.mainContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContacto {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.pContacto {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.inputForm {
+    width: 180px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 30px;
+}
+
+.pGenero {
+    width: 140px;
+}
+
+.pNotificaciones {
+    width: 140px;
+}
+
+.botonesSesion {
+    width: 140px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+/* contacto */
+
+/* Imagenes */
+.carrito {
+    width: 70px;
+    height: 60px;
+    background-image: url(imagenes/carrito.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+    background-image: url(imagenes/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lupa {
+    width: 40px;
+    height: 40px;
+}
+
+.contenedorArmatupc{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intel {
+    margin: 15px;
+    width: 290px;
+    height: 90px;
+    background-image: url(imagenes/intel.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.amd {
+    margin: 15px;
+    width: 290px;
+    height: 90px;
+    background-image: url(imagenes/amd.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contenedorProductos img {
+    width: 150px;
+    height: 150px;
+}
+
+.redesSociables {
+    width: 40px;
+    height: 40px;
+}
+
+/* Imagenes */
+
+/* MOBILE FIRST */
+
+/* TABLET */
+
+@media only screen and (min-width: 576px) {
+    .contenedorFlex1 {
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 254px;
+        height: 79px;
+        background-image: url(imagenes/logo2.jpg);
+    }
+
+    .contenedorProductos {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(11, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contendorProcesadores {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(3, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorPlacas {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(3, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorMothers {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(3, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorAlmacenamiento {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(1, 400px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorRams {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(1, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contendorGabinetes {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(1, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+
+    .contenedorInciosesion {
+        width: 320px;
+        height: 310px;
+        background-color: rgb(247, 176, 44);
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    /* contacto */
+
+    .mainContacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formContacto {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .pContacto {
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+    .inputForm {
+        width: 180px;
+        margin-left: 170px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        margin-left: 170px;
+    }
+
+    .pGenero {
+        width: 140px;
+        margin-left: 170px;
+    }
+
+    .pNotificaciones {
+        width: 420px;
+    }
+
+    .botonesSesion {
+        width: 180px;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+
+    /* contacto */
+}
+
+
+
+/* TABLET */
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+    .menu {
+        display: none;
+    }
+
+    .ulNav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contenedorProductos {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(8, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contendorProcesadores {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(2, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorPlacas {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(2, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorMothers {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(2, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorAlmacenamiento {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(1, 400px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedorRams {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(1, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+    
+    .contendorGabinetes {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(1, 380px);
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+
+    /* contacto */
+
+    .mainContacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formContacto {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pContacto {
+        display: inline-block;
+    }
+
+    .inputForm {
+        width: 180px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        margin-left: 0px;
+    }
+
+    .pGenero {
+        width: 140px;
+        margin-left: 0px;
+    }
+
+    .pNotificaciones {
+        width: 500px;
+    }
+
+    .botonesSesion {
+        width: 180px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        width: 500px;
+    }
+
+    /* contacto */
+}
+
+/* DESKTOP */
